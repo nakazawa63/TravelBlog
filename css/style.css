@@ -181,3 +181,77 @@ a{
 .copy{
   text-align: center;
 }
+
+/* SP版 */
+
+@media screen and (max-width: 767px){
+
+/* ヘッダー */
+
+.globalnavigation{
+  margin-bottom: 29px;
+}
+.header__list{
+  width: 100%;
+  padding: 10px;
+}
+
+/* ピックアップ */
+
+.post__pickup_area{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 74px;
+}
+.post__pickup{
+  width: 100%;
+}
+.readmore{
+  padding-bottom: 33px;
+}
+
+/* 投稿 */
+
+.post__area{
+  width: 100%;
+  float: none;
+  
+}
+.post__title{
+  padding-bottom: 22px;
+}
+.post__text{
+  margin: 0 auto;
+  padding-bottom: 33px;
+  width: 80%;
+}
+
+/* サイドメニュー */
+
+.article__side{
+  width: 100%;
+  float: none;
+}
+
+/* フッター */
+
+.footer__information{
+  display: flex;
+  flex-direction: column;
+}
+.footer__about{
+  width: 100%;
+}
+.footer__about_list{
+  padding-bottom: 59px;
+}
+.footer__menu{
+  width: 100%;
+}
+.footer__menu_list{
+  margin-bottom: 35px;
+}
+.footer__menu_list li{
+  padding: 19px 2%;
+} 
+}
